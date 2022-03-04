@@ -36,7 +36,6 @@ items.length == 0 ? $('#cart-body').html(empty_cart) : items.forEach(function(it
     }
     total += item.price * item.quantity;
     $('.cart-total').html('$'+total.toFixed(0)+'');
-    console.log(total);
 });
 
 window.add_to_cart = function(id)
